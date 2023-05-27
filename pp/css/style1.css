@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.lalatext {
+    font-size: 20px;
+  }
+
+.main-cont {
+    background: url('/pp/image/Flag_of_Belarus_Customs.png') center center / cover no-repeat;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.one-section {
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(14, 121, 10);
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.prct {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.title-wrapper {
+    height: 100px;
+}
+
+.author-text {
+    margin-left: 250px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.author-text2 {
+    margin-left: 150px;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.author-text3 {
+    margin-left: 200px;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.nav-items {
+    gap: 80px;
+    margin-left: -690px;
+}
+
+.nav-items:hover {
+    cursor: pointer;
+}
+
+
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author-text {
+    font-size: 50px;
+}
+
+.right-section {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #369100;
+    color: white;
+    height: 600px;
+}
+
+.topic-text {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 40px;
+    width: 600px;
+}
+
+footer {
+    background-color: rgb(14, 121, 10);
+    color: white;
+    height: 150px;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.ft1 {
+    font-size: 40px;
+    margin-top: 40px;
+}
